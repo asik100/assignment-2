@@ -377,6 +377,16 @@ ul{
     margin-bottom: 10px ;
 }
 
+
+
+.facts_item{
+    position: relative;
+}
+.facts_item:hover{
+    transform: rotate(45deg) scale(0.90);
+    /* transform: scale(0.90); */
+}
+
 @media screen and (max-width: 576px) {
     #facts{
         margin: 10px 0px;
